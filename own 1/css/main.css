@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-ai-artificial-intelligent-blue-image_38901.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+    font-family: 'Ubuntu', sans-serif;  
+}
+#conv{
+    width: 100%;
+    height: auto;
+}
+#com{
+    width: 80%;
+    height: auto;
+}
+#conn{
+    border-radius: 15%;
+    height: auto;
+    width: 80%;
+}
+#logo{
+    height: auto;
+    width: 10%;;
+}
+#dwn{
+    font-size: 50px;
+}
+#rule{
+    background-color:white ;
+}
+.bottom-footer{
+    background:#1f1f1f !important;
+    
+}
+.social{
+    font-size: 2rem;
+}
+.blog{
+    color: chocolate;
+}
