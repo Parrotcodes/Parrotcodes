@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Parrotcodes
+- 👋 Hi, I’m @Parrotcodes account
 - 👀 I’m interested in ...Programming
 - 🌱 I’m currently learning ...WebDesigning course
 - 💞️ I’m looking to collaborate on ...WEB page
