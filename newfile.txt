@@ -1,1 +1,3 @@
 I am from local repository
+
+To check fetching command will show github updates
