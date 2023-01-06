@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <title>My TODO List</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <button>Click Me</button>
+    <script>
+        let todo1 = "Get Groceries";
+        let todo2 = "Wash Car";
+        let todo3 = "Make dinner";
+        let todo4 = "Practice code";
+
+
+        let element = document.createElement('div');
+        element.innerText = todo1;
+        document.body.appendChild(element);
+
+        element = document.createElement('div');
+        element.innerText = todo2;
+        document.body.appendChild(element);
+
+        element = document.createElement('div');
+        element.innerText = todo3;
+        document.body.appendChild(element);
+
+        element = document.createElement('div');
+        element.innerText = todo4;
+        document.body.appendChild(element);
+
+
+        //added a button using JS script
+        let button = "Click Me Now";
+
+        let createbutton = document.createElement('button');
+        createbutton.innerText = button;
+        document.body.appendChild(createbutton);
+
+        //changed document title above the tab
+        document.title = "Changed todo app";
+
+
+        //reversing todo list using JS
+        // let txt = "This is revere order of the TODO List";
+        let myhead = "Reverse todo list items";
+
+        let createbutton2 = document.createElement('h3');
+        createbutton2.innerText = myhead;
+        document.body.appendChild(createbutton2);
+
+
+        element = document.createElement('div');
+        element.innerText = todo4;
+        document.body.appendChild(element);
+
+        element = document.createElement('div');
+        element.innerText = todo3;
+        document.body.appendChild(element);
+
+        element = document.createElement('div');
+        element.innerText = todo2;
+        document.body.appendChild(element);
+
+        element = document.createElement('div');
+        element.innerText = todo1;
+        document.body.appendChild(element);
+
+        //Funtions in JS
+        let myfun = "Functions in JS code";
+
+        let fun = document.createElement('h3');
+        fun.innerText = myfun;
+        document.body.appendChild(fun);
+
+        function ToDO(TodoTitle) {
+            element = document.createElement('div');
+            element.innerText = TodoTitle;
+            document.body.appendChild(element);
+        }
+
+        ToDO(todo1);
+        ToDO(todo2);
+        ToDO(todo3);
+        ToDO(todo4);
+
+        //anohter function with new name greeting
+
+        function greeting(firstName){
+            console.log('Hello '+ firstName);
+        }
+
+        greeting('Rakesh');
+        
+        function toUpper(str){
+                console.log(str.toUpperCase());
+        }
+        toUpper('rakesh');
+
+
+        function inchTocm(num){
+            console.log(num * 2.54);
+        }
+        inchTocm(10);
+
+        
+
+    </script>
+</body>
+
+</html>

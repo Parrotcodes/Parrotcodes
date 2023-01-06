@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-37hacs394rfnlye6q17b1otbsizghpa9fhni65z6lb6gploak.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    font-family: cursive;
+}
+
+.container{
+    background-color: rgba(175, 136, 212,0.5);
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 37%;
+    margin-top: 15%;
+    box-shadow: 0px 0px 5px whitesmoke;
+
+}
+
+textarea{
+    resize: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.counter-conainter{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter-conainter p{
+    font-size: 15px;
+}
+
+#total-counter{
+    color: green;
+}
+#remaing-counter{
+    color: red;
+}
+
+#myfooter{
+    background-color: rgb(226, 168, 181);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}

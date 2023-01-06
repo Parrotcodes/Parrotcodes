@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+h1{
+    text-align: center;
+    color: rgb(221, 116, 253);
+}
+p{
+    color: rgb(221, 116, 253);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 5px;
+    opacity: 0.8;
+}
+span{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/essentials-72/24/028_-_Heart-256.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    animation: animate 6s linear;
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%,-50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    100%{
+        transform: translate(-50%,-5000%);
+        opacity: 0;
+        filter: hue-rotate(1000deg);
+
+    }
+}

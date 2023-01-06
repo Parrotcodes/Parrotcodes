@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>My TODO List</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <input type="text" id="todo-title" />
+    <button onclick="addToDo()">Add Todo</button>
+    <button id="todo-buttons" onclick="updatebutton()">change button</button>
+    <script>
+        let  heading= "Adding a new Todo Task using Input textbox of HTML tag";
+
+        let fun = document.createElement('h3');
+        fun.innerText = heading;
+        document.body.appendChild(fun);
+
+        // adding a todo using input textbox in html atrribute value
+
+        let todos = ['first task'];
+
+        todos.forEach(function (ele) {
+            let newvar = document.createElement('div');
+            newvar.innerText = ele;
+            document.body.appendChild(newvar);
+        });
+
+        function addToDo() {
+            let textbox = document.getElementById('todo-title');
+            let title = textbox.value;
+            todos.push(title);
+        }
+
+
+        function updatebutton(){
+            document.getElementById('todo-buttons').innerText='Done';
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>

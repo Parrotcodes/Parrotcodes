@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: seashell;
+    text-align: center;
+    color: white;
+    background-image: url('https://miro.medium.com/max/1200/1*Hy9IifHDsW4tqCXIHOpU2Q.jpeg');
+    background-size: cover;
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.contaner {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.contaner a,
+#btn {
+    background-color: rgb(238, 170, 170);
+    padding: 20px 40px;
+    margin: 4px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transform: translate(0%, -120%);
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a span,
+button span {
+    position: relative;
+    z-index: 1;
+}
+
+a::before,
+button::before {
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    left: var(--xPos);
+    top: var(--yPos);
+    transition: width 0.5s, height 0.5s;
+
+
+}
+
+a:hover::before,
+button:hover::before {
+    height: 300px;
+    width: 400px;
+}
+
+#myfooter{
+    background-color: rgb(226, 168, 181);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}

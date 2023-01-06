@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>My TODO List</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <input id="add-task" type="text" />
+    <button id="add" onclick="AddToDo()">AddToDo</button>
+<h1>My TODO List</h1>
+
+<div>Groceries</div>
+<div>Wash Car</div>
+<div>Make Dinner</div>
+<div>Practice some code</div>
+<hr>
+<script>
+    let todo1 = "Get Groceries";
+    let todo2 = "Wash Car";
+    let todo3 = "Make dinner";
+    let todo4 = "Practice code";
+
+
+    let element = document.createElement('div');
+    element.innerText = todo1;
+    document.body.appendChild(element);
+
+    element=document.createElement('div');
+    element.innerText = todo2;
+    document.body.appendChild(element);
+
+    element = document.createElement('div');
+    element.innerText = todo3;
+    document.body.appendChild(element);
+
+    element = document.createElement('div');
+    element.innerText = todo4;
+    document.body.appendChild(element);
+
+    function AddToDo(){
+        let task = document.getElementById('add-todo');
+        let title = innerText.value;
+
+        let div = document.createElement('div');
+        div.innerText = value;
+        document.body.appendChild(div);
+
+    }
+
+
+</script>
+</body>
+
+</html>

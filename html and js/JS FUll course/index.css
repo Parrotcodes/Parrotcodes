@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    align-items: center;
+    background-image: url('https://www.dnnsoftware.com/Portals/0/Images/hero-background-15.jpg?ver=2017-08-18-172107-023');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(7, 69, 163);
+}
+marquee{
+    color: red;
+    width: 440px;
+    height: 90px;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+
+h1 span{
+    color: red;
+    text-shadow: 2px 2px 5px white;
+}
+.lists{
+    font-size: 30px;
+    margin-left: 60px;
+}
+.lists ol li {
+    margin:10px 0px;
+}
+.lists ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+.lists ol li a:hover{
+    color: rgb(170, 236, 170);
+    font-size: 32px;
+}
+
+.footer{
+    position: absolute;
+    background-color: rgb(157, 203, 241);
+    bottom: 0;
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    font-size: 20px;
+    margin: 0px 5px;
+    box-sizing: border-box;
+
+}

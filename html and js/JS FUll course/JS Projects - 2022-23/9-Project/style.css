@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: absolute;
+    right: 10px;
+
+}
+ul li{
+    margin: 10px;
+    font-size: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: orange;
+    float: right;
+    display: flex;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 4px 5px salmon;
+}
+
+.container .click-here{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.click-here:hover{
+    filter: brightness(0.8);
+}
+
+.container.active{
+    filter: blur(5px) brightness(0.7);
+}
+
+.popup-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+    width: 400px;
+    height: 230px;
+    background-color: rgb(142, 208, 235);
+    padding: 10px;
+    color: blueviolet;
+    justify-content: center;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0,0.3);
+}
+
+.popup-container h4{
+    font-size: x-large;
+    text-align: center;
+}
+.popup-container label{
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.popup-container input{
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+}
+.popup-container input::placeholder{
+    text-align: center;
+    opacity: 0.4;
+    font-size: 18px;
+}
+
+.popup-container .join{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: orange;
+    cursor: pointer;
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+.join:hover{
+    filter: brightness(.8);
+}
+
+.close-icon{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-icon:hover{
+    color: orange;
+}
+
+.popup-container.active{
+    visibility: hidden;
+}
+
+footer{
+    position: fixed;
+    background-color: orange;
+    opacity: 0.4;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+

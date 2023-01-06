@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 1fr;
+    margin-top: 10px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    margin-top: 10px;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-top: 10px;
+}
+
+.grid4{
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.grid5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px
+    ;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<friends>
+	<friend aid="f1">
+		<name>Ram</name>
+		<age>23</age>
+		<fav>Movies</fav>
+	</friend>
+	<friend aid="f2">
+		<name>Vishal</name>
+		<age>20</age>
+		<fav>Business</fav>
+	</friend>
+	<friend aid="f3">
+		<name>Honey</name>
+		<age>21</age>
+		<fav>Games</fav>
+	</friend>
+</friends>

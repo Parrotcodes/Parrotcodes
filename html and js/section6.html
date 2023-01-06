@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <title>My TODO List</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <script>
+        let myfun = "Array and Loop combination in JS code";
+
+        let fun = document.createElement('h3');
+        fun.innerText = myfun;
+        document.body.appendChild(fun);
+
+        // let todo1 = "Get Groceries";
+        // let todo2 = "Wash Car";
+        // let todo3 = "Make dinner";
+        // let todo4 = "Practice code";
+
+
+        //arrays in JS
+        let todos = ["Get Groceries","Wash Car","Make dinner","Practice code"];
+        // todos.push('new task');
+        //todos.pop();
+
+        
+
+        todos.forEach(function ToDO(TodoTitle) {
+            let element = document.createElement('div');
+            element.innerText = TodoTitle;
+            // element.innerText = TodoTitle.toUpperCase();
+            document.body.appendChild(element);
+
+        });
+
+        // function uppercase conversion array elements
+        
+        function toUpper(msg){
+            let result =[];
+
+            msg.forEach(function (str){
+                result.push(str.toUpperCase());
+            });
+        console.log(result);
+
+        };
+
+        toUpper(['hello','world','JS Code']);
+
+        // Double time printing the array elements
+
+        function doubleArray(mystr){
+            let getmystr =[];
+
+            mystr.forEach(function msg(r){
+                getmystr.push(r);//first push
+                getmystr.push(r);//second push
+            });
+
+            console.log(getmystr);
+        };
+
+        doubleArray(['php','Java']);
+
+        // Array for no.of parametr  using arraySum function
+
+        
+function arraySum(numArray){
+    let total = 0;
+
+    numArray.forEach(function (num){
+        total = total + num;
+    });
+
+    console.log(total);
+}
+
+arraySum([10,20,30]);
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

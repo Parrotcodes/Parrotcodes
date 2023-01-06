@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Jquary</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="jquery-3.6.1.min.js">
+    <link rel="stylesheet" href="jqlib.js">
+</head>
+<style>
+    body {
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 1.5em;
+    }
+
+    header {
+        text-align: center;
+        color: #fff;
+        background-color: #333;
+        padding: 20px;
+        border-bottom: 4px solid black;
+        margin-top: 10px;
+    }
+
+    #container {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    #box {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        width: 480px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Practice Jquary Crash Course</h1>
+    </header>
+    <div id="container">
+
+        <p>This is a Jquary program which is used to write less and do more concept based JS.</p>
+        <span id="span1">My name is span. </span>
+        <h4 id="coords"></h4>
+
+        <h1>Heading 1</h1>
+        <p id="p1">This is a paragaph 1.XML stands for eXtensible Markup Language.XML was designed to store and
+            transport
+            data.XML was designed to be both human- and machine-readable.XML stands for eXtensible Markup Language.XML
+            was designed to store and transport
+            data.XML was designed to be both human- and machine-readable.</p>
+        <h1>Heading 2</h1>
+
+        <p class="p2">This is a paragaph 1.XML stands for eXtensible Markup Language.XML was designed to store and
+            transport data.XML was designed to be both human- and machine-readable.XML stands for eXtensible Markup
+            Language.XML was designed to store and transport
+            data.XML was designed to be both human- and machine-readable.</p>
+        <h1>Un-Ordered Lists</h1>
+        Add New item: <input type="text" id="newitem">
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+        </ul>
+        <h1>Mouse Events</h1>
+        <input type="text">
+        <input type="submit" value="submit input">
+        <input type="button" value="input button">
+        <br><br>
+        <h3>Buttons</h3>
+        <button id="btn1">Button 1</button>
+        <button id="btn2">Submit</button>
+        <button id="btn3">ClickMe</button>
+
+        <hr>
+        <form action="#" id="form">
+            User name: <br>
+            <input type="text"><br>
+            Email: <br> <input type="text"><br>
+            Gender: <br> <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            <input type="submit" value="submit">
+        </form>
+        <hr>
+        <select name="effect" id="myeffect">
+            <option value="fadein">FadeIn</option>
+            <option value="fadeout">FadeOut</option>
+        </select>
+        <button id="ebtn1">FadeIn</button>
+        <button id="ebtn2">FadeOut</button>
+        <button id="ebtn3">show</button>
+        <button id="ebtn4">Hide</button>
+        <button id="ebtn5">fadeToggle</button>
+
+        <hr>
+        <button id="ebtn6">SlideUp</button>
+        <button id="ebtn7">SlideDown</button>
+        <button id="ebtn8">slideToggle</button>
+
+        <p id="msg"></p>
+        <hr>
+        <div id="box">
+            <h1>Hello World!</h1>
+        </div>
+
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // $("h1").hide();
+            // $('li:first').hide();
+            $('li:first').css('color', 'blue');
+            $('li:last').css('color', 'red');
+            $('li:even').css('background-color', 'gray');
+            $('li:odd').css('background-color', 'yellow');
+            $('li:nth-child(3n)').css('list-style', 'none');
+
+            // $('#btn1').click(function () {
+            //     alert('hay you clicked me!');
+            // });
+
+            $(document).on('mousemove', function (e) {
+                $('#coords').html('Coords Y:' + e.clientY + " X:" + e.clientX);
+            })
+
+            $('input').focus(function (e) {
+                $(this).css('background', 'pink');
+                $(this).css('color', 'green');
+            });
+
+            $('input').blur(function (e) {
+                $(this).css('background', 'white');
+                $(this).css('color', 'black');
+
+            });
+
+            $('#gender').change(function (e) {
+                alert(e.target.value);
+            });
+
+            $('#form').submit(function (e) {
+                e.preventDefault();
+                console.log('submitted!');
+            });
+
+            $('#newitem').keyup(function (e) {
+                var code = e.which;
+                if (code == 13) {
+                    e.preventDefault();
+                    $('ul').append('<li>' + e.target.value + '</li>');
+                }
+            });
+            // fade effect
+            $('#ebtn2').click(function () {
+                $('#box').fadeOut(3000, function () {
+                    $('#msg').text('Its gone');
+                });
+            });
+            $('#ebtn1').click(function () {
+                $('#box').fadeIn(3000, function () {
+                    $('#msg').text('Its back');
+                });
+            });
+
+            $('#ebtn5').click(function () {
+                $('#box').fadeToggle(3000);
+            });
+
+            $('#ebtn3').click(function () {
+                $('#box').show(3000, function () {
+                    $('#msg').text('Wow its magic');
+                });
+            });
+            $('#ebtn4').click(function () {
+                $('#box').hide(3000, function () {
+                    $('#msg').text('Magic Done');
+                });
+            });
+
+            // slide effect
+            $('#ebtn6').click(function(){
+                $('#box').slideUp(3000);
+            });
+            $('#ebtn7').click(function(){
+                $('#box').slideDown(3000);
+            });
+            $('#ebtn8').click(function(){
+                $('#box').slideToggle(3000);
+            });
+
+            // Animate effect
+
+            // AJAX course import text
+            $("#box").load('test.html');
+
+        });
+
+    </script>
+</body>
+
+</html>

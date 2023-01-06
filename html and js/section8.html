@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>My TODO List</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div id="upcounter">0</div>
+    <button onclick="countUp()">Up</button>
+    <button onclick="countDown()">Down</button>
+
+    <input id="add-title" type="text" />
+    <button onclick="displayTitle()">Display Title</button>
+
+
+    <script>
+        let heading = "Array sum , counter increment and adding Text code using JS!";
+
+        let fun = document.createElement('h3');
+        fun.innerText = heading;
+        document.body.appendChild(fun);
+
+        // Array counter
+        let count = 0;
+        if(count==5){
+            alert('your score is 5!');
+        }
+
+        function countUp() {
+    count += 1;
+    let counter = document.getElementById('upcounter');
+    counter.innerText = count;
+        }
+
+        function countDown() {
+    count -= 1;
+    let counter = document.getElementById('upcounter');
+    counter.innerText = count;
+        }
+
+
+        //Adding text to body using input
+
+        function displayTitle(){
+            let textbox = document.getElementById('add-title');
+            let title= textbox.value;
+
+            let display = document.createElement('div');
+            display.innerText= title;
+            document.body.appendChild(display);
+        }
+
+     
+
+
+
+    </script>
+</body>
+
+</html>

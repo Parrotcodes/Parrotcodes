@@ -1,0 +1,14 @@
+<!-- xslt demo -->
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<class>
+    <student>
+        <fname>Graham</fname>
+        <lname>Bell</lname>
+        <nickname>Garry</nickname>
+    </student>
+    <student>
+        <fname>sdf</fname>
+        <lname>dfs</lname>
+        <nickname>Gargfdgdfry</nickname>
+    </student>
+</class>
