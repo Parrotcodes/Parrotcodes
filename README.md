@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Parrotcodes account143
+- 👋 Hi, My GitHub profile is @Parrotcodes
 - 👀 I’m interested in ...Programming
 - 🌱 I’m currently learning ...WebDesigning course
 - 💞️ I’m looking to collaborate on ...WEB page
