@@ -13,8 +13,9 @@ I am a passionate and enthusiastic full stack developer eager to embark on a jou
 ## Skills
 
 - **Frontend**: HTML, CSS, JavaScript, React.js
-- **Backend**: Node.js, Express.js
+- **Backend**: Node.js, Express.js, Python
 - **Database**: MongoDB, MySQL
+- **Other Programming Languages**: Python, PHP, Java, C, C++ and DSA
 - **Design**: Figma, Adobe
 - **Other Tools**: Git, GitHub, VS Code, Docker, Firebase, 
 
