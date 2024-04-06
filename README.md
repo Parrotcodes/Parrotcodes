@@ -23,23 +23,23 @@ I am a passionate and enthusiastic full stack developer eager to embark on a jou
 
 Here are a few projects I've worked on:
 
-1. **[College Event Organization Site]** - Users can easily get to know college event details and can easily register for the event program.
+1. **College Event Organization Site** - Users can easily get to know college event details and can easily register for the event program.
    - Technologies Used: ReactJS, NPM Packages, Git & GitHub.
    - Link: [https://github.com/Parrotcodes/MyATRI.git]
    - Live Preview: [https://atriborealis.netlify.app/] 
 
-2. **[Full Stack Blog Post site]** - From this blogsite users or developers can learn a new skill from each and every latest updates posts.
+2. **Full Stack Blog Post site** - From this blogsite users or developers can learn a new skill from each and every latest updates posts.
    - Technologies Used: EJS, Node.js, Express.js, MongoDB, Git & GitHub.
    - Link: [https://github.com/Parrotcodes/Nodejs-work.git]
    - Live Preview: [https://crblogapp.onrender.com/] 
 
 
-3. **[JavaScript Projects]** - Different projects developed using Javascript.
+3. **JavaScript Projects** - Different projects developed using Javascript.
    - Technologies Used: HTML, CSS, JavaScript, Git & GitHub.
    - Link: [https://programmingadda.host20.uk/]
 
 
-4. **[E-commerce Site]** - Basic Ecommerce static single page.
+4. **E-commerce Site** - Basic Ecommerce static single page.
    - Technologies Used: | React.js, React Router, CSS, Git & GitHub.
    - Link: [https://programmingadda.host20.uk/]
    - Live Preview: [https://crecommercewebsite.netlify.app/]
