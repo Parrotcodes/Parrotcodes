@@ -23,17 +23,26 @@ I am a passionate and enthusiastic full stack developer eager to embark on a jou
 
 Here are a few projects I've worked on:
 
-1. **[Project Name]** - Brief description of the project.
-   - Technologies Used: List of technologies used in the project.
-   - Link: [Link to the project repository or live demo]
+1. **[College Event Organization Site]** - Users can easily get to know college event details and can easily register for the event program.
+   - Technologies Used: ReactJS, NPM Packages, Git & GitHub.
+   - Link: [https://github.com/Parrotcodes/MyATRI.git]
+   - Live Preview: [https://atriborealis.netlify.app/] 
 
-2. **[Project Name]** - Brief description of the project.
-   - Technologies Used: List of technologies used in the project.
-   - Link: [Link to the project repository or live demo]
+2. **[Full Stack Blog Post site]** - From this blogsite users or developers can learn a new skill from each and every latest updates posts.
+   - Technologies Used: EJS, Node.js, Express.js, MongoDB, Git & GitHub.
+   - Link: [https://github.com/Parrotcodes/Nodejs-work.git]
+   - Live Preview: [https://crblogapp.onrender.com/] 
 
-3. **[Project Name]** - Brief description of the project.
-   - Technologies Used: List of technologies used in the project.
-   - Link: [Link to the project repository or live demo]
+
+3. **[JavaScript Projects]** - Different projects developed using Javascript.
+   - Technologies Used: HTML, CSS, JavaScript, Git & GitHub.
+   - Link: [https://programmingadda.host20.uk/]
+
+
+4. **[E-commerce Site]** - Basic Ecommerce static single page.
+   - Technologies Used: | React.js, React Router, CSS, Git & GitHub.
+   - Link: [https://programmingadda.host20.uk/]
+   - Live Preview: [https://crecommercewebsite.netlify.app/]
 
 ## Education
 
@@ -45,11 +54,15 @@ I'm open to collaborations and new opportunities. Feel free to reach out to me v
 
 - Email: parrotrakhy@gmail.com
 - LinkedIn: https://www.linkedin.com/in/chilukalarakesh/
+- Gravatar: https://gravatar.com/parrotrakhy
 
 ## Let's Connect
 
 Connect with me on other platforms:
 
 - [LinkedIn](https://www.linkedin.com/in/chilukalarakesh/)
+- [DockerHub](https://hub.docker.com/u/crdocker01)
+- [GitHub](https://github.com/Parrotcodes)
+
 
 Looking forward to connecting with you!
