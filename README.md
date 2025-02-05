@@ -1,4 +1,4 @@
-Here's a sample README file for a GitHub profile of a full stack fresher developer:
+Here's a sample README file for a GitHub profile of a Full Stack Developer:
 
 ---
 ![Profile.](/[https://drive.google.com/file/d/1R3s9Wap8zQ-vuD5VhyzYewYkFhFy12hA/view?usp=drive_link])
