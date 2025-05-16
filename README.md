@@ -1,6 +1,6 @@
 Here's a sample README file for a GitHub profile of a Full Stack Developer:
 
----![de](https://github.com/user-attachments/assets/9ba3d3f8-4f32-4a67-8ba3-daa12d8ec8c3)
+---![de](https://github.com/user-attachments/assets/9ba3d3f8-4f32-4a67-8ba3-daa12d8ec8c3   | {width=100})
 
 
 # Hello, I'm Chilukala Rakesh 👋
